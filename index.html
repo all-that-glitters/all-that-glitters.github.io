@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYJRPM2FMS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KYJRPM2FMS');
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/2.0.8/features/deepLink/dataTables.deepLink.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script type="text/javascript" charset="utf8" src="script.js"></script>
+</head>
+<body>
+    <div class="hero-container">
+        <img id="hero-img" src="all-that-glitters-header.jpg" alt="All That Glitters">
+    </div>
+
+    <table id="scandal-table" class="display">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Claim</th>
+                <th>Status</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Claim</th>
+                <th>Status</th>
+                <th>Date</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="form-container">
+        <div id="contact-form-container" class="contact-form-container">
+            <h1>Anyone We've Missed?</h1>
+            <p>Let us know so we can keep the list as comprehensive as possible</p>
+            <form id="contact-form" action="https://formspree.io/f/xeqyyqre" method="post">
+                <input type="text" name="name" placeholder="Person *" required>
+                <textarea name="message" placeholder="Claim and evidence *" required></textarea>
+                <p id="contact-form-status"></p>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let form = document.getElementById("contact-form");
+        async function handleSubmit(event) {
+            event.preventDefault();
+            let formContainer = document.getElementById("contact-form-container");
+            let status = document.getElementById("contact-form-status");
+            let data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    form.reset();
+                    formContainer.innerHTML = "Thanks for your submission!";
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+                        } else {
+                            status.innerHTML = "Oops! There was a problem submitting your information.";
+                        }
+                    });
+                }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your information.";
+            });
+        }
+        form.addEventListener("submit", handleSubmit);
+    </script>
+</body>
+</html>

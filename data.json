@@ -1,0 +1,121 @@
+{
+    "data": [
+      {
+        "id": "elvis-presley-1",
+        "name": "Elvis Presley",
+        "role": "Musician",
+        "claim": "Sexual Misconduct with a Minor (14)",
+        "status": "Confirmed",
+        "date": "1959",
+        "tags": "Priscilla",
+        "evidence": [
+          {
+            "source": "Elvis and Me, Chapter 3, Priscilla Presley",
+            "link": "https://books.google.ca/books?id=U_FyEAAAQBAJ&pg=PT28&source=gbs_toc_r&cad=1#v=onepage&q&f=false",
+            "excerpt": "We had a nightly ritual. At about ten or eleven, Elvis would glance at me and look toward the stairs. Then, naively assuming that nobody knew where I was headed, I'd casually proceed to his bedroom, where I'd lie on his bed, impatiently waiting for him to appear. When he joined my, he'd lie as close to me as he could ... I longed for those nights when he'd shut off the lights and lie close beside me. “Sweetness,” he would say, putting his arms around me. “You're so pretty, Honey.” And then we'd kiss long, deep, passionate kisses, and his caresses would leave me weak with desire."
+          }
+        ]
+      },
+      {
+        "id": "sean-penn-1",
+        "name": "Sean Penn",
+        "role": "Actor",
+        "claim": "Assault and Battery",
+        "status": "Confirmed",
+        "date": "1985",
+        "tags": "Laurence Cottrell, journalist, paparazzi, Nashville",
+        "evidence": [
+          {
+            "source": "LA Times",
+            "link": "https://www.latimes.com/archives/la-xpm-1985-10-17-mn-14972-story.html",
+            "excerpt": "Actor Sean Penn pleaded no contest and received a 90-day suspended sentence and a $50 fine today on each of two charges of assaulting two journalists outside a Nashville hotel in June."
+          }
+        ]
+      },
+      {
+        "id": "sean-penn-2",
+        "name": "Sean Penn",
+        "role": "Actor",
+        "claim": "Attempted Murder",
+        "status": "Confirmed",
+        "date": "1986",
+        "tags": "Macau, Shanghai Surprise, Hong Kong",
+        "evidence": [
+          {
+            "source": "Sydney Morning Herald",
+            "link": "https://www.smh.com.au/entertainment/movies/sean-penn-broke-out-of-jail-biography-20041227-gdkdw5.html",
+            "excerpt": "Oscar-winning actor Sean Penn was arrested for attempted murder before fleeing his jail cell and escaping to Hong Kong, it was reported yesterday."
+          },
+          {
+            "source": "Sean Penn: His Life and Times (Autobiography, via The Sydney Morning Herald)",
+            "link": "https://www.nickiswift.com/760618/how-sean-penn-escaped-from-jail/",
+            "excerpt": "'[We] grabbed the guy, ran him through the room to the balcony and hung him over — on the ninth floor,' Penn recalled in his biography 'Sean Penn: His Life and Times' (via The Sydney Morning Herald). 'Five minutes later I'm in jail, on a stone floor next to my friend, and everyone's talking Portuguese,' he added."
+          }
+        ]
+      },
+      {
+        "id": "sean-penn-3",
+        "name": "Sean Penn",
+        "role": "Actor",
+        "claim": "Assault",
+        "status": "Confirmed",
+        "date": "1986",
+        "tags": "David Wolinski, Los Angeles",
+        "evidence": [
+          {
+            "source": "UPI Archives",
+            "link": "https://www.upi.com/Archives/1986/07/18/Actor-Sean-Penn-was-charged-with-battery-Friday-for/4750522043200/",
+            "excerpt": "Actor Sean Penn was charged with battery Friday for allegedly assaulting a Grammy-winning songwriter in a nightclub because the man was talking to Penn's wife, pop singing star Madonna."
+          }
+        ]
+      },
+      {
+        "id": "sean-penn-4",
+        "name": "Sean Penn",
+        "role": "Actor",
+        "claim": "Assault and Reckless Driving",
+        "status": "Confirmed",
+        "date": "1987",
+        "tags": "Jeffrey Klein, extra, Colors, Los Angeles",
+        "evidence": [
+          {
+            "source": "LA Times",
+            "link": "https://www.latimes.com/archives/la-xpm-1987-06-24-me-6270-story.html",
+            "excerpt": "Actor Sean Penn, whose hot temper has repeatedly landed him in trouble off the screen, was sentenced Tuesday to 60 days in County Jail for reckless driving and for punching an extra on the set of his latest movie."
+          }
+        ]
+      },
+      {
+        "id": "sean-penn-5",
+        "name": "Sean Penn",
+        "role": "Actor",
+        "claim": "Domestic Abuse",
+        "status": "Alleged",
+        "date": "1988",
+        "tags": "Madonna, J Randy Taraborrelli, Douglas Thompson, Lieutenant Bill McSweeney",
+        "evidence": [
+          {
+            "source": "Gawker",
+            "link": "https://www.gawkerarchives.com/did-sean-penn-beat-up-madonna-an-archaeology-of-hollyw-1748746261",
+            "excerpt": "The most complete account of Madonna's ordeal appeared in July 2001, upon the publication of J. Randy Taraborrelli's Madonna: An Intimate Biography, which appears to be the the main (albeit uncredited) source of the 2009 Daily Mail piece.\nUnlike Andersen or Thompson, however, Taraborrelli claimed to have obtained the actual police report from the L.A. Sheriff, which took Madonna's own testimony after she managed to escape Penn's captivity.\nAs per the police report, Penn was “drinking liquor straight from the bottle,” and his abuse of her went on for several hours, during which time he allegedly smacked her and roughed her up.\nTaraborrelli also quotes the same eyewitness interviewed by Douglas Thompson, Lieutenant Bill McSweeney, who confirmed that Madonna appeared to have been assaulted. (According to the biography's end-notes, the interview with McSweeney took place in 1989.) Another officer, whom Taraborrelli does not name, indicated that Penn was in fact arrested some time after his wife arrived at the sheriff's station\nTaraborrelli also included Penn's (fairly vague) recollection of police officers surrounding his house\nAs we noted previously, the police report he quotes from no longer exists. According to the Los Angeles County Sheriff, the original document was destroyed sometime in the 1990s, thanks to the State of California's records destruction policy."
+          }
+        ]
+      },
+      {
+        "id": "sean-penn-6",
+        "name": "Sean Penn",
+        "role": "Actor",
+        "claim": "Assault",
+        "status": "Confirmed",
+        "date": "2009",
+        "tags": "photographer, paparazzi, Los Angeles",
+        "evidence": [
+          {
+            "source": "CNN",
+            "link": "https://www.cnn.com/2010/SHOWBIZ/05/12/sean.penn.plea/index.html",
+            "excerpt": "Sean Penn reached a plea deal this week to settle charges that he attacked a photographer on a Los Angeles, California, street last fall, a spokesman for the Los Angeles city attorney said.\nVideo posted on the celebrity gossip site TMZ showed Penn kicking toward a still photographer who was standing by his pickup truck as he approached."
+          }
+        ]
+      }
+    ]
+  }
